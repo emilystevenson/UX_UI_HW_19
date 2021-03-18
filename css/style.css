@@ -1,0 +1,189 @@
+body {
+  background-color:#FDF5E4;
+}
+
+h1, h2, p{
+  color: #707070;
+  text-align: center;
+}
+
+h1 {
+  font-family: bely-display, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 85px;
+}
+
+h2{
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+}
+
+p {
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+
+
+ul {
+    font-family: nimbus-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    color: #707070;
+    text-align: left;
+}
+
+.nav {
+    background-color: #FDF5E4;
+    list-style-type: none;
+    text-align: right;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 20px;
+  color: #707070;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.hi{
+  background-color:#C5BAA4;
+  height: 475px;
+  width: 60%;
+  padding: 0px 30px 30px 30px;
+}
+.hi img{
+  height: 400px;
+  width: 300px;
+  float: left;
+  padding-top: 40px;
+}
+.about-button {
+  background-color:#FFCB6B;
+  border: none;
+  color:#707070;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.skills {
+    background-color: #C7CEA3;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+
+
+.flexcontainer {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+
+.flexcontainer > div {
+    background-color: #FDF5E4;
+    width: 33%;
+    margin: 10px;
+    text-align: center;
+    }
+
+
+
+.work {
+    background-color: #A5B6C0;
+    height: 1000px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 20px 0px 20px;
+}
+
+.workgrid {
+    display: grid;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto;
+    grid-row-gap: 20px
+}
+
+.workgrid > div {
+    background-color: #FDF5E4;
+    text-align: center;
+    width: 600px;
+}
+    .workgrid > div > img {
+        float: left;
+    }
+
+
+
+.button {
+  background-color:#A5B6C0;
+  border: none;
+  color:#707070;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-family: nimbus-sans, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.about-button {
+  background-color:#FFCB6B;
+  border: none;
+  color:#707070;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+footer {
+    background-color: #FFCB6B;
+    height: 350px;
+    margin: 0px;
+    padding: 0px 30px 30px 30px;
+}
+
+footer h2 {
+  color: white;
+}
+.icons{
+text-align: center;
+}
+.icons img {
+  height: 30px;
+  padding: 10px;
+  display:inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #flexcontainer {
+       flex-direction: column;
+       width: 100%;
+       grid-template-rows: 400px;
+       grid-template-columns:1fr 1fr;
+    }
+}
