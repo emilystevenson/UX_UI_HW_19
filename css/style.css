@@ -1,6 +1,5 @@
 body {
     background-color: #FDF5E4;
-    margin: 0px,0px,0px,0px;
 }
 
 h1, h2, p {
@@ -62,21 +61,28 @@ header {
 }
 
 .content {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 50px;
+    max-width: 900px;
+    margin: auto;
     background-color: #C5BAA4;
     text-align: center;
 }
 
-    .content img {
-        float: left;
-        padding-top: 0px
-    }
+.content img {
+   float: left;
+   height: 400px;
+}
 
-    .content button {
+.content p {
+    margin-left: 350px;
+    margin-right: 50px;
+    margin-top:-69px;
+}
+
+
+ .content button {
         background-color: #FFCB6B;
-    }
+        margin-bottom: 20px;
+  }
 
 button {
     background-color: #A5B6C0;
@@ -123,11 +129,11 @@ footer {
     background-color: #C7CEA3;
 }
 
-    .flexContainer div {
-        background-color: #FDF5E4;
-        padding: 25px;
-        margin: 20px;
-    }
+.flexContainer div {
+    background-color: #FDF5E4;
+    padding: 25px;
+    margin: 20px;
+}
 
 
 
@@ -146,15 +152,20 @@ footer {
 
     .workGrid div {
         background-color: #FDF5E4;
-        padding: 25px
+        padding: 0px;
+        text-align: center;
     }
 
-    .workGrid img {
-        width: 100%;
-        max-width: 250px;
+.workGrid img {
+    height: 100%;
         margin: 0 auto;
         display: block;
         float: left;
+}
+
+    .workGrid h2, p {
+        margin-bottom: 20px;
+        color: #707070;
     }
 
 @media only screen and (max-width: 600px) {
