@@ -27,13 +27,17 @@ p {
     font-size: 20px;
 }
 
-ul {
+a {
     font-family: nimbus-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
     color: #707070;
-    text-align: left;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFCB6B;
 }
 
 
@@ -46,9 +50,10 @@ header {
         float: right;
     }
 
-    header li {
+    header a {
         display: inline-block;
         padding: 0px 5px;
+        float: right;
     }
 
     header h2 {
@@ -167,6 +172,8 @@ footer {
         margin-bottom: 20px;
         color: #707070;
     }
+
+
 
 @media only screen and (max-width: 600px) {
 

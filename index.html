@@ -4,21 +4,23 @@
     <title>Emily Stevenson</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/esj0edm.css">
+    <script src="js/index.js"></script>
+   
 </head>
 <body>
     <header>
         <h2>Emily Stevenson</h2>
-        <ul>
-            <li>About</li>
-            <li>Work</li>
-            <li>Contact</li>
-        </ul>
+        <a class="scroll" href="#connect">Connect</a>
+        <a href="#work">Work</a>
+        <a href="#skills">About</a>
+ 
+
     </header>
 
     <section class="heroImg">
         <div class="content">
             <img src="images/emily.jpg" alt="Beautiful Picture of Me">
-            
+            <div>
                 <h1 style="text-align:center; color: #FFCB6B;">Hi</h1>
                 <p style="color: white;">
                     I create effective UX/UI solutions through meaningful
@@ -33,11 +35,11 @@
                     for new projects.
                 </p>
                 <button>More About Me</button>
-            
+            </div>
         </div>
     </section>
 
-    <div class="skills">
+    <div class="skills" id="skills">
         <h1>Skills</h1>
     </div>
     <section class="flexContainer">
@@ -62,7 +64,7 @@
 
     </section>
 
-    <section class="work">
+    <section class="work" id="work">
         <h1 style="text-align:right;">Work</h1>
         <div class="workGrid">
 
@@ -115,7 +117,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="connect">
         <h1>Connect</h1>
         <h2>
             emily.d.stevenson@gmail.com
@@ -128,8 +130,6 @@
         </div>
         <p>Emily Stevenson © All Rights Reserved</p>
     </footer>
-
-    <script src="js/index.js">console.log("Hello world!");</script>
 
 </body>
 </html>
