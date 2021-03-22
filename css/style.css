@@ -143,6 +143,9 @@ footer {
         color: white;
         text-align: center;
     }
+    footer h1 {
+        padding-left: 3rem;
+    }
 
 .icons {
     text-align: center;
